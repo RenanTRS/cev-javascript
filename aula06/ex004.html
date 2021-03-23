@@ -9,8 +9,9 @@
 <body>
     <script>
         nome = prompt('Digite o seu nome: ') //Até agora o var não se faz necessário para declarar uma variável.
-        document.write(`Seu nome possui ${nome.length} letras!`) //Print na tela a mensagem
-        alert(nome)
+        document.write(`Olá ${nome} Seu nome possui ${nome.length} letras!</br>`) //Print na tela a mensagem, length serve para contar caracteres como o len() do python
+        document.write(`Seu nome em letras maiúsculas ${nome.toUpperCase()}</br>`)
+        document.write(`Seu nome em minúsculas ${nome.toLowerCase()}`)
     </script>
 </body>
 </html>
